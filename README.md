@@ -1,9 +1,7 @@
-# FD-SPMSketch cải tiến
+# LC-FD-SPMSketch
 
 Repository này cung cấp **phiên bản cải tiến của thuật toán FD-SPMSketch** nhằm khai thác các mẫu trình tự thường xuyên trong **cơ sở dữ liệu hoàn toàn động**.  
 Giải pháp đề xuất tập trung vào **giảm chi phí bộ nhớ và thời gian thực thi** thông qua **cơ chế lưu trữ lười (lazy storage)** và **nén dữ liệu vị trí (compressed PosList)**.
-
-Đây là sản phẩm phục vụ **nghiên cứu khoa học (NCKH)**.
 
 ---
 
@@ -117,14 +115,6 @@ java mainRunMrosFPM
 ```
 
 Điều chỉnh tham số trong `mainRunMrosFPM.java` để chạy các kịch bản khác nhau.
-
----
-
-## 9. Ngữ cảnh nghiên cứu
-
-Repository này phục vụ bài báo:
-
-**“Khai thác các mẫu trình tự thường xuyên trong cơ sở dữ liệu hoàn toàn động dựa trên cấu trúc lưu trữ lười và nén dữ liệu.”**
 
 ---
 
