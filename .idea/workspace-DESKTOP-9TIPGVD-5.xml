@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63777c55-00b3-4035-b607-157e13761984" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ItemInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/BIKE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/BMSWebView1 (Gazelle) ( KDD CUP 2000).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/BMSWebView2 (Gazelle) ( KDD CUP 2000).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/Bible.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/FIFA.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/Kosarak.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/Leviathan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/MSNBC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/MT745584-COVID-19 genome sequence.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFile/TestFile01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VerDB_Mros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoFpmMros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algoFpmMros/ReadFileToVerDB_Mros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainRunMrosFPM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/bytes/BytesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/hash/MurmurHash.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2FHtEWsdUm3Hk4dHMKi5Y5jqkpS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="algoFpmMros" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mainRunMrosFPM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mainRunMrosFPM" />
+      <module name="MrosFPM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63777c55-00b3-4035-b607-157e13761984" name="Changes" comment="" />
+      <created>1664160728157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664160728157</updated>
+      <workItem from="1664160729506" duration="2605000" />
+      <workItem from="1664177738107" duration="11899000" />
+      <workItem from="1664199616040" duration="1407000" />
+      <workItem from="1664242239426" duration="8363000" />
+      <workItem from="1664268874310" duration="3334000" />
+      <workItem from="1664879069781" duration="251000" />
+      <workItem from="1664885593849" duration="3835000" />
+      <workItem from="1665056667061" duration="1843000" />
+      <workItem from="1665142217142" duration="6205000" />
+      <workItem from="1665203921438" duration="2858000" />
+      <workItem from="1665389275366" duration="6858000" />
+      <workItem from="1665457621079" duration="9043000" />
+      <workItem from="1665550407636" duration="7314000" />
+      <workItem from="1665642243873" duration="4136000" />
+      <workItem from="1665727625168" duration="10111000" />
+      <workItem from="1665756010386" duration="670000" />
+      <workItem from="1665767144153" duration="2413000" />
+      <workItem from="1665829257901" duration="2904000" />
+      <workItem from="1665965243080" duration="3204000" />
+      <workItem from="1665991023571" duration="3558000" />
+      <workItem from="1666053581976" duration="5078000" />
+      <workItem from="1666081443263" duration="4201000" />
+      <workItem from="1666111836720" duration="724000" />
+      <workItem from="1666117036017" duration="89000" />
+      <workItem from="1666118184717" duration="1238000" />
+      <workItem from="1666145740704" duration="4136000" />
+      <workItem from="1666166547362" duration="13171000" />
+      <workItem from="1666232628737" duration="1439000" />
+      <workItem from="1666249671411" duration="4120000" />
+      <workItem from="1666350242254" duration="7617000" />
+      <workItem from="1666454150514" duration="93000" />
+      <workItem from="1666636543592" duration="1126000" />
+      <workItem from="1666667897214" duration="5635000" />
+      <workItem from="1666710757611" duration="1536000" />
+      <workItem from="1666718630328" duration="1698000" />
+      <workItem from="1666748136401" duration="10606000" />
+      <workItem from="1666788816217" duration="8621000" />
+      <workItem from="1666810259779" duration="5020000" />
+      <workItem from="1667345543898" duration="1413000" />
+      <workItem from="1667442559855" duration="1927000" />
+      <workItem from="1667444948220" duration="197000" />
+      <workItem from="1667445159669" duration="5098000" />
+      <workItem from="1667525923115" duration="3563000" />
+      <workItem from="1667618745473" duration="393000" />
+      <workItem from="1667812020612" duration="4441000" />
+      <workItem from="1667871668680" duration="2946000" />
+      <workItem from="1668087828036" duration="609000" />
+      <workItem from="1668565931790" duration="612000" />
+      <workItem from="1669017872659" duration="6388000" />
+      <workItem from="1669123803912" duration="354000" />
+      <workItem from="1669191271657" duration="11498000" />
+      <workItem from="1669256796582" duration="4398000" />
+      <workItem from="1669287083569" duration="7198000" />
+      <workItem from="1669344957533" duration="14951000" />
+      <workItem from="1669396606657" duration="1615000" />
+      <workItem from="1669401492037" duration="3173000" />
+      <workItem from="1669468795099" duration="2251000" />
+      <workItem from="1669613050623" duration="8085000" />
+      <workItem from="1669695793402" duration="3615000" />
+      <workItem from="1669700867489" duration="649000" />
+      <workItem from="1669703065244" duration="1258000" />
+      <workItem from="1669711538985" duration="577000" />
+      <workItem from="1669717126886" duration="1774000" />
+      <workItem from="1669719029538" duration="2483000" />
+      <workItem from="1669722403935" duration="1350000" />
+      <workItem from="1669723773011" duration="95000" />
+      <workItem from="1669723876679" duration="45000" />
+      <workItem from="1669724112846" duration="22000" />
+      <workItem from="1669724162678" duration="4833000" />
+      <workItem from="1669761449096" duration="2636000" />
+      <workItem from="1669782624589" duration="626000" />
+      <workItem from="1669783926888" duration="233000" />
+      <workItem from="1669798626427" duration="5959000" />
+      <workItem from="1669869343167" duration="455000" />
+      <workItem from="1669987315576" duration="559000" />
+      <workItem from="1670001599420" duration="491000" />
+      <workItem from="1670004313673" duration="1322000" />
+      <workItem from="1670042626361" duration="1423000" />
+      <workItem from="1670054489876" duration="3426000" />
+      <workItem from="1670078024929" duration="1295000" />
+      <workItem from="1670198603766" duration="514000" />
+      <workItem from="1670212927559" duration="6176000" />
+      <workItem from="1670301405630" duration="3045000" />
+      <workItem from="1670309998830" duration="3716000" />
+      <workItem from="1670323679848" duration="7396000" />
+      <workItem from="1670381083852" duration="10976000" />
+      <workItem from="1670506952470" duration="3657000" />
+      <workItem from="1670562961145" duration="1569000" />
+      <workItem from="1670577059546" duration="2213000" />
+      <workItem from="1670595667385" duration="678000" />
+      <workItem from="1670830999237" duration="4612000" />
+      <workItem from="1671008913360" duration="2114000" />
+      <workItem from="1671070429895" duration="438000" />
+      <workItem from="1671116134103" duration="1188000" />
+      <workItem from="1671178656493" duration="466000" />
+      <workItem from="1671179143125" duration="1036000" />
+      <workItem from="1671195634135" duration="42000" />
+      <workItem from="1671807508910" duration="100000" />
+      <workItem from="1671954375134" duration="2255000" />
+      <workItem from="1672914937037" duration="3074000" />
+      <workItem from="1673532108760" duration="1807000" />
+      <workItem from="1676007011991" duration="11000" />
+      <workItem from="1676119986134" duration="4000" />
+      <workItem from="1676343551355" duration="12664000" />
+      <workItem from="1676382175519" duration="75000" />
+      <workItem from="1676442313306" duration="1184000" />
+      <workItem from="1676448278864" duration="3463000" />
+      <workItem from="1676511610947" duration="3667000" />
+      <workItem from="1676878947537" duration="604000" />
+      <workItem from="1677116369921" duration="794000" />
+      <workItem from="1677138596605" duration="2000" />
+      <workItem from="1678091065908" duration="738000" />
+      <workItem from="1678278764677" duration="629000" />
+      <workItem from="1678421474293" duration="337000" />
+      <workItem from="1679019712126" duration="927000" />
+      <workItem from="1680249378382" duration="1090000" />
+      <workItem from="1680255034204" duration="641000" />
+      <workItem from="1680390996215" duration="4000" />
+      <workItem from="1681732787423" duration="294000" />
+      <workItem from="1682926649556" duration="5838000" />
+      <workItem from="1686836189237" duration="44000" />
+      <workItem from="1686836244147" duration="1272000" />
+      <workItem from="1687141798709" duration="14000" />
+      <workItem from="1687144008707" duration="1210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="46" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algoFpmMros.java</url>
+          <line>339</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.BitSet" memberName="wordsInUse" />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="key" />
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
+        <PinnedItemInfo parentTag="Mros" memberName="itemNum" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((VerDB_Mros)((HashMap.Node)itemVerListTemp.entrySet().toArray()[0]).getValue()).UCID_Mros" custom="java.util.HashMap.Node,VerDB_Mros" />
+        <watch expression="((java.util.ArrayList)((HashMap.Node)itemVerListTemp.entrySet().toArray()[1]).getKey()).get(0)" custom="java.util.HashMap.Node,java.util.ArrayList" />
+        <watch expression="prefixVerList" />
+        <watch expression="((VerDB_Mros)((HashMap.Node)prefixVerList.entrySet().toArray()[2]).getValue()).allInfo.get(1)" custom="java.util.HashMap.Node,VerDB_Mros" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AlgoFpmMros_java$mainRunMrosFPM.ic" NAME="mainRunMrosFPM 覆盖结果" MODIFIED="1670507743251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
