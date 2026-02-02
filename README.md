@@ -1,7 +1,7 @@
 # LC-FD-SPMSketch
 
 Repository này cung cấp **phiên bản cải tiến của thuật toán FD-SPMSketch** nhằm khai thác các mẫu trình tự thường xuyên trong **cơ sở dữ liệu hoàn toàn động**.  
-Giải pháp đề xuất tập trung vào **giảm chi phí bộ nhớ và thời gian thực thi** thông qua **cơ chế lưu trữ lười (lazy storage)** và **nén dữ liệu vị trí (compressed PosList)**.
+Giải pháp đề xuất tập trung vào **giảm chi phí bộ nhớ và thời gian thực thi** thông qua **cơ chế lưu trữ trì hoãn (lazy storage)** và **nén dữ liệu vị trí (compressed PosList)**.
 
 ---
 
@@ -34,7 +34,7 @@ Mặc dù FD-SPMSketch đã giảm chi phí tính toán độ hỗ trợ nhờ M
 
 Phiên bản cải tiến của FD-SPMSketch đề xuất các điểm mới sau:
 
-### 🔹 Lưu trữ PosMap lười (Lazy PosMap)
+### 🔹 Lưu trữ PosMap trì hoãn (Lazy PosMap)
 - PosList **chỉ được tạo khi thật sự cần thiết**
 - Nhiều mẫu trung gian chỉ lưu **thông tin hỗ trợ**
 - Giảm số lượng PosList phải lưu trong bộ nhớ
@@ -72,7 +72,7 @@ Phiên bản cải tiến của FD-SPMSketch đề xuất các điểm mới sau
 │
 ├── CsrPosMap.java                # PosMap dạng CSR
 ├── GapVarintPosList.java         # PosList nén (gap + varint)
-├── LazyPosMapManager.java        # Quản lý PosMap lười
+├── LazyPosMapManager.java        # Quản lý PosMap trì hoãn
 ├── PatternEntry.java             # Thông tin pattern
 ├── LruCache.java                 # Cache PosMap
 ├── Varint.java                   # Hỗ trợ mã hóa varint
