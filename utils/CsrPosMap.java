@@ -5,11 +5,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public final class CsrPosMap {
+    // For one pattern:
+    // sid[i] is the SID
+    // off[i]..off[i+1] slice in posData
     public final int[] sid;
     public final int[] off;
-    public final byte[] posData; 
-    public final int entryCount; 
-    public final int totalPid;
+    public final byte[] posData; // concatenated GapVarintPosList bytes
+    public final int entryCount; // == sid.length
+    public final int totalPid;   // total PIDs (for memory stats)
 
     private CsrPosMap(int[] sid, int[] off, byte[] posData, int totalPid) {
         this.sid = sid;
@@ -31,6 +34,7 @@ public final class CsrPosMap {
         public Slice(byte[] bytes, int pidCount) { this.bytes = bytes; this.pidCount = pidCount; }
     }
 
+    /** Build CSR from Map<SID, GapVarintPosList>. SID keys can be unsorted. */
     public static CsrPosMap build(Map<Integer, GapVarintPosList> map) {
         int n = map.size();
         int[] sid = new int[n];
@@ -38,6 +42,7 @@ public final class CsrPosMap {
         for (int s : map.keySet()) sid[k++] = s;
         Arrays.sort(sid);
 
+        // compute offsets + concat
         int[] off = new int[n + 1];
         int totalBytes = 0;
         int totalPid = 0;
@@ -63,6 +68,7 @@ public final class CsrPosMap {
         return new CsrPosMap(sid, off, posData, totalPid);
     }
 
+    // Helper for fast building in code:
     public static Map<Integer, GapVarintPosList> newSidToPosListMap() {
         return new HashMap<>();
     }

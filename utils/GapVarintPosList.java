@@ -22,6 +22,7 @@ public final class GapVarintPosList {
         return last;
     }
 
+    /** Add PID in non-decreasing order */
     public void add(int pid) {
         if (size > 0 && pid < last) {
             throw new IllegalArgumentException("PIDs must be non-decreasing. last=" + last + ", pid=" + pid);
@@ -51,6 +52,7 @@ public final class GapVarintPosList {
         return new Iterator(bytes, pidCount);
     }
 
+    /** Debug: decode to List<Integer> */
     public List<Integer> toList() {
         List<Integer> res = new ArrayList<>(size);
         Iterator it = iterator();
@@ -58,6 +60,7 @@ public final class GapVarintPosList {
         return res;
     }
 
+    /** Create a new PosList containing only pids > threshold */
     public GapVarintPosList copyFilteredGreaterThan(int threshold) {
         GapVarintPosList out = new GapVarintPosList();
         Iterator it = iterator();

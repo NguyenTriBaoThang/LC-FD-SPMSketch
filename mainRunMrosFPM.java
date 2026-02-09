@@ -4,10 +4,10 @@ import utils.MemoryLogger;
 public class mainRunMrosFPM {
 
     // ========== Toggle chạy các chế độ ==========
-    private static final boolean RUN_INIT_MINE  = true;   // ReadFileToVerDB_Mros
+    private static final boolean RUN_INIT_MINE  = true;   // Init mining
     private static final boolean RUN_ADD_MINE   = false;  // addMFP
     private static final boolean RUN_DE_MINE    = false;  // deMFP
-    private static final boolean RUN_FULLY_MINE = true;   // FullyMFP
+    private static final boolean RUN_FULLY_MINE = true;   // Fully dynamic mining
 
     public static void main(String[] args) throws IOException {
 
@@ -17,21 +17,21 @@ public class mainRunMrosFPM {
         // double delta = 0.30;
 
         // (2) REPORT: cân bằng (dùng viết báo cáo)
-        double minSupRe = 0.10;
+        double minSupRe = 0.50;
         double delta = 0.40;
 
-        // Trong code đang truyền (1 - delta) vào một số hàm
+        // Giữ lại để in log (code gốc có nơi dùng deltaFactor = 1 - delta)
         double deltaFactor = 1.0 - delta;
 
         // ================== PATH FILE ==================
         // Init DB
-        String inputFilePath  = "indeDataset/Sign/Sign_original.txt";
-        String outputFilePath = "outputTest.txt";
+        String inputFilePath  = "indeDataset/BMSWeb2/BMSWebView2_original.txt";
+        String outputFilePath = "indeDataset/outputTestBMSWebView2.txt";
 
         // Add/De/Fully DB
-        String addFilePath  = "indeDataset/Sign/Sign_11_2.txt";
-        String deFilePath   = "indeDataset/Sign/Sign_01_1.txt";
-        String fullyOutPath = "indeDataset/testSign204.txt";
+        String addFilePath  = "indeDataset/BMSWeb2/BMSWebView2_11_2.txt";
+        String deFilePath   = "indeDataset/BMSWeb2/BMSWebView2_01_1.txt";
+        String fullyOutPath = "indeDataset/testBMSWebView2204.txt";
 
         // ================== RUN ==================
         algoFpmMros algo = new algoFpmMros();
@@ -39,18 +39,19 @@ public class mainRunMrosFPM {
         System.out.println("========= CONFIG =========");
         System.out.println("minSupRe      = " + minSupRe);
         System.out.println("delta         = " + delta);
-        System.out.println("deltaFactor   = " + deltaFactor + " (passed into methods)");
+        System.out.println("deltaFactor   = " + deltaFactor + " (used internally for INIT/FULLY)");
         System.out.println("==========================\n");
 
         // ---- (A) Init mining ----
         if (RUN_INIT_MINE) {
-            resetCountersOnly();
+            resetCountersOnly(); // để số đếm init không dính sang fully
             MemoryLogger.getInstance().reset();
 
             System.out.println("********** START INIT MINING **********");
             long t0 = System.currentTimeMillis();
 
-            algo.ReadFileToVerDB_Mros(inputFilePath, outputFilePath, minSupRe, deltaFactor);
+            // CÁCH 1: gọi runAlgorithm (không truyền add/de => INIT)
+            algo.runAlgorithm(inputFilePath, outputFilePath, minSupRe, delta, "", "");
 
             long t1 = System.currentTimeMillis();
             long runtime = (t1 - t0);
@@ -69,6 +70,7 @@ public class mainRunMrosFPM {
             String addOutPath = "outputAdd.txt";
             long t0 = System.currentTimeMillis();
 
+            // addMFP dùng deltaFactor giống code gốc của bạn
             algoFpmMros.addMFP(addFilePath, addOutPath, minSupRe, deltaFactor);
 
             long t1 = System.currentTimeMillis();
@@ -88,6 +90,7 @@ public class mainRunMrosFPM {
             String deOutPath = "outputDe.txt";
             long t0 = System.currentTimeMillis();
 
+            // theo main gốc: deMFP(..., delta) (delta thực)
             algoFpmMros.deMFP(deFilePath, deOutPath, minSupRe, delta);
 
             long t1 = System.currentTimeMillis();
@@ -106,7 +109,8 @@ public class mainRunMrosFPM {
             System.out.println("********** START FULLY DYNAMIC MINING **********");
             long t0 = System.currentTimeMillis();
 
-            algoFpmMros.FullyMFP(addFilePath, deFilePath, fullyOutPath, minSupRe, deltaFactor);
+            // CÁCH 1: gọi runAlgorithm (có add/de => FULLY)
+            algo.runAlgorithm(inputFilePath, fullyOutPath, minSupRe, delta, addFilePath, deFilePath);
 
             long t1 = System.currentTimeMillis();
             long runtime = (t1 - t0);
@@ -141,7 +145,6 @@ public class mainRunMrosFPM {
 
     /**
      * Reset chỉ các biến đếm để mỗi MODE ra số liệu rõ ràng.
-     * (Không reset DB structures ở đây vì FULLY cần state sau INIT nếu chạy liên tiếp theo pipeline)
      */
     private static void resetCountersOnly() {
         algoFpmMros.patternCount = 0;

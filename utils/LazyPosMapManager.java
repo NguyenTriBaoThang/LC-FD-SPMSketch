@@ -3,6 +3,11 @@ package utils;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Lazy PosMap manager:
+ * - PatternEntry.posMap is null unless pattern is active (needed for ExtendP)
+ * - Active posMaps are stored as CSR (CsrPosMap) + gap/varint encoded PosLists
+ */
 public final class LazyPosMapManager {
 
     private final LruCache<String, CsrPosMap> cache;
@@ -11,6 +16,7 @@ public final class LazyPosMapManager {
         this.cache = new LruCache<>(maxActivePatterns);
     }
 
+    /** Ensure pattern has active posMap (CSR). If absent, materialize on demand (lazy). */
     public void ensureActive(PatternEntry p, PosMaterializer materializer) {
         if (p.posMap != null) return;
 
@@ -25,10 +31,26 @@ public final class LazyPosMapManager {
         cache.put(p.key, built);
     }
 
+    /** Drop active map from pattern (keep in cache). */
     public void deactivate(PatternEntry p) {
         p.posMap = null;
     }
 
+    /**
+     * ExtendP: build positional map for newPattern = concat(prefixX, patternY)
+     *
+     * Inputs:
+     *  - xMap: CSR posMap of prefix (positions of last item of prefix)
+     *  - xPidCount: map SID->pidCount for xMap's PosList
+     *  - yMap: CSR posMap of Y (positions of last item of Y)
+     *  - yPidCount: map SID->pidCount for yMap's PosList
+     *
+     * Output:
+     *  - CSR posMap for new pattern (SID->valid Y positions)
+     *
+     * NOTE:
+     *  - This function does not update sketches (SIDMros). You do it outside.
+     */
     public CsrPosMap extendP(
             CsrPosMap xMap, Map<Integer, Integer> xPidCount,
             CsrPosMap yMap, Map<Integer, Integer> yPidCount) {
@@ -58,18 +80,23 @@ public final class LazyPosMapManager {
                 BufferedPidIter itX = new BufferedPidIter(rawX);
                 BufferedPidIter itY = new BufferedPidIter(rawY);
 
+                // Extend logic (standard):
+                // keep yPos if exists xPos < yPos.
                 GapVarintPosList validY = null;
 
+                // If X is empty, none can be valid
                 if (itX.hasNext()) {
-                    int xPos = itX.next(); 
+                    int xPos = itX.next(); // current x
 
                     while (itY.hasNext()) {
                         int yPos = itY.next();
 
+                        // Move xPos forward while next x is still < yPos
                         while (itX.hasNext() && itX.peek() < yPos) {
                             xPos = itX.next();
                         }
 
+                        // Now xPos is the largest x we've consumed (< current yPos) or >= yPos
                         if (xPos < yPos) {
                             if (validY == null) validY = new GapVarintPosList();
                             validY.add(yPos);
@@ -88,10 +115,17 @@ public final class LazyPosMapManager {
         return CsrPosMap.build(out);
     }
 
+    // -------------------- helper types --------------------
+
+    /**
+     * Materializer builds CSR posMap for a given pattern key when we need it.
+     * (Lazy PosMap)
+     */
     public interface PosMaterializer {
         CsrPosMap materialize(String patternKey);
     }
 
+    /** One-item peek buffer wrapper around GapVarintPosList.Iterator (no inheritance). */
     private static final class BufferedPidIter {
         private final GapVarintPosList.Iterator it;
         private boolean hasBuf;

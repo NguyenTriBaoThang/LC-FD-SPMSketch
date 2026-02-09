@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63777c55-00b3-4035-b607-157e13761984" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/outputTest.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/utils/CsrPosMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/utils/GapVarintPosList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/utils/LazyPosMapManager.java" afterDir="false" />
@@ -13,11 +12,13 @@
       <change afterPath="$PROJECT_DIR$/utils/PatternEntry.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/utils/Varint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VerDB_Mros.java" beforeDir="false" afterPath="$PROJECT_DIR$/VerDB_Mros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algoFpmMros.java" beforeDir="false" afterPath="$PROJECT_DIR$/algoFpmMros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indeDataset/testSign204.txt" beforeDir="false" afterPath="$PROJECT_DIR$/indeDataset/testSign204.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainRunMrosFPM.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainRunMrosFPM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/Mros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/Mros.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/BIKE.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/BMSWebView1 (Gazelle) ( KDD CUP 2000).txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/BMSWebView2 (Gazelle) ( KDD CUP 2000).txt" beforeDir="false" />
@@ -91,6 +92,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/TestFile02" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/mainRunMrosFPM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/mainRunMrosFPM.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/outputSign.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/outputTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.005BIKE_0.9spam" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.006BIKE_0.9spam" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.007BIKE_0.9spam" beforeDir="false" />
@@ -507,6 +509,13 @@
       <workItem from="1769859130427" duration="37000" />
       <workItem from="1769859381282" duration="3818000" />
       <workItem from="1769964162995" duration="664000" />
+      <workItem from="1770110312350" duration="80000" />
+      <workItem from="1770110552549" duration="259000" />
+      <workItem from="1770287889168" duration="17000" />
+      <workItem from="1770479803760" duration="13063000" />
+      <workItem from="1770522224441" duration="16992000" />
+      <workItem from="1770623940683" duration="15246000" />
+      <workItem from="1770650905589" duration="2999000" />
     </task>
     <servers />
   </component>
@@ -536,7 +545,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algoFpmMros.java</url>
-          <line>146</line>
+          <line>162</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>

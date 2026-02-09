@@ -20,6 +20,12 @@ public class Mros {
 
     private BitSet[] bitmaps;
 
+    /**
+     * @param layerCnt
+     * @param layerSize
+     * @param beta
+     * @param seed
+     */
     public Mros(int layerCnt, int layerSize, double beta, int seed) {
         this.layerCnt = layerCnt;
         this.layerSize = layerSize;
@@ -43,7 +49,6 @@ public class Mros {
         update(key);
         itemNum--;
     }
-
     public int getItemNum() {
         return itemNum;
     }
@@ -76,6 +81,16 @@ public class Mros {
     }
 
     public static double intersectionSizeEstimate(Mros o1, Mros o2) {
+//        if (o1.layerSize != o2.layerSize || o1.layerCnt != o2.layerCnt) {
+//            System.err.println("Mros o1和Mros o2大小不同");
+//            System.exit(-1);
+//        }
+//        Mros merge = new Mros(o1.layerCnt, o1.layerSize, o1.beta, o1.seed);
+//        for (int i = 0; i < merge.bitmaps.length; i++) {
+//            for (int j = 0; j < merge.bitmaps[i].size(); j++) {
+//                merge.bitmaps[i].set(j, o1.bitmaps[i].get(j) & o2.bitmaps[i].get(j));
+//            }
+//        }
         Mros merge = MergeByXor(o1, o2);
         double symmetric_difference = merge.sizeEstimate();
         double tmp = (o1.itemNum * 1.0 + o2.itemNum * 1.0 - symmetric_difference) / 2;

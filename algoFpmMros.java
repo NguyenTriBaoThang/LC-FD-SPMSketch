@@ -20,6 +20,29 @@ public class algoFpmMros {
     static int withPurnCount= 0;
     static int extension = 0;
 
+    public void runAlgorithm(String inputFilePath,
+                             String outputFilePath,
+                             double minSupRe,
+                             double delta,
+                             String addFilePath,
+                             String deFilePath) throws IOException {
+
+        double deltaFactor = 1.0 - delta;
+
+        boolean hasAdd = !isBlank(addFilePath);
+        boolean hasDe  = !isBlank(deFilePath);
+
+        if (!hasAdd && !hasDe) {
+            ReadFileToVerDB_Mros(inputFilePath, outputFilePath, minSupRe, deltaFactor);
+        } else {
+            FullyMFP(addFilePath, deFilePath, outputFilePath, minSupRe, deltaFactor);
+        }
+    }
+
+    private static boolean isBlank(String s) {
+        return s == null || s.trim().isEmpty();
+    }
+
     static Map<Integer,VerDB_Mros> one_verDBList = new HashMap<>();
     static Map<Integer,VerDB_Mros> addItemMap = new HashMap<>();
 
@@ -170,6 +193,9 @@ public class algoFpmMros {
             itemCadMap.put(integer1,candlist);
         }
 
+        /**
+         * 频繁的二模式模式增长 (DFS)
+         */
         for (List<Integer> two_integers : two_freItemList){
             Integer last = two_integers.get(two_integers.size()-1);
             List<Integer> canList_1 = itemCadMap.get(last);
@@ -218,6 +244,7 @@ public class algoFpmMros {
                     if (candList_new!=null) {
                         GrowP(item_new, verDB_xy, candList_new, minSup, delta);
                     }
+                    // 回来后，verDB_xy 会尽快被GC（降低峰值内存）
                 }
             }
         }
@@ -243,8 +270,10 @@ public class algoFpmMros {
             GapVarintPosList posList_temp = null;
 
             if (first_x < first_y) {
+                // copy all y
                 posList_temp = yList.copyFilteredGreaterThan(-1);
             } else if (first_x < last_y) {
+                // keep y positions > first_x
                 posList_temp = yList.copyFilteredGreaterThan(first_x);
             }
 

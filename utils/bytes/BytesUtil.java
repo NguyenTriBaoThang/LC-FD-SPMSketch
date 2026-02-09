@@ -1,5 +1,6 @@
 package com.utils.bytes;
 
+
 public class BytesUtil {
 
     private static final byte[] bytes = new byte[4];
