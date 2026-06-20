@@ -1,5 +1,4 @@
-package com.utils.hash;
-
+package utils.hash;
 
 /**
  * Murmur hash 2.0.

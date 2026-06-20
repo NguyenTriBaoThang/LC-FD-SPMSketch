@@ -1,4 +1,4 @@
-package com.utils.bytes;
+package utils.bytes;
 
 
 public class BytesUtil {

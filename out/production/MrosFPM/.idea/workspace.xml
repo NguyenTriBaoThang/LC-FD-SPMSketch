@@ -4,161 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63777c55-00b3-4035-b607-157e13761984" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/utils/CsrPosMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/GapVarintPosList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/LazyPosMapManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/LruCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/PatternEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/Varint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mros.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VerDB_Mros.java" beforeDir="false" afterPath="$PROJECT_DIR$/VerDB_Mros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algoFpmMros.java" beforeDir="false" afterPath="$PROJECT_DIR$/algoFpmMros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indeDataset/testSign204.txt" beforeDir="false" afterPath="$PROJECT_DIR$/indeDataset/testSign204.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainRunMrosFPM.java" beforeDir="false" afterPath="$PROJECT_DIR$/mainRunMrosFPM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/Mros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/Mros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/BMSWebView1 (Gazelle) ( KDD CUP 2000).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/BMSWebView2 (Gazelle) ( KDD CUP 2000).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/Kosarak.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/Leviathan.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/MSNBC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/MT745584-COVID-19 genome sequence.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/TestFile01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/TestFile/addTestFile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/VerDB_Mros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/VerDB_Mros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/algoFpmMros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/algoFpmMros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe11000FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe12000FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe13000FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe14000FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe2014Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe203Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe203Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe204Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe204Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe205Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe205Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe206BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe206Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe206FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe206Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe207BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe207Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe207FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe207Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe208BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe208Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe208Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe209BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe209Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe209FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe209Sign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe210BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe210Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe210FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe211BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe211Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe211FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe212BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe212Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe212FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe213BIKE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe213BMS2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe213Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe213FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe214Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe214FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/ADe215FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/Bible_0.9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe001BMSW2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe010Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe012Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe014Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe016Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe0180Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe018Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe020Bible.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe10FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe12FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe16FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe18FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/Bible/outDe20FIFA.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/fullydataset/TestFile02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/mainRunMrosFPM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MrosFPM/mainRunMrosFPM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/outputSign.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/outputTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.005BIKE_0.9spam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.006BIKE_0.9spam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.007BIKE_0.9spam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.008BIKE_0.9spam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.009BIKE_0.9spam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BIKE_spam/0.01BIKE_0.9spam" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_FDcspm/BMS001Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_FDcspm/BMS002Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_FDcspm/BMS003Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_FDcspm/BMS004Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_FDcspm/BMS005Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_FDcspm/BMS006Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_spam/0.001BMS2_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_spam/0.002BMS2_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_spam/0.003BMS2_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_spam/0.004BMS2_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_spam/0.005BMS2_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/BMS2_spam/0.006BMS2_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/DeBIKE.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/DeBMS2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/DeFIFA.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/DeKosarak.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/DeSign.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_FDcspm/out10FIFA_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_FDcspm/out14FIFA_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_FDcspm/out16FIFA_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_FDcspm/out18FIFA_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_FDcspm/out20FIFA_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_spam/0.10FIFA_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_spam/0.12FIFA_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_spam/0.14FIFA_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_spam/0.15FIFA_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_spam/0.16FIFA_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_spam/0.18FIFA_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/FIFA_spam/0.20FIFA_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_FDcspm/Kosarak005Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_FDcspm/Kosarak01Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_FDcspm/Kosarak02Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_FDcspm/Kosarak03Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_FDcspm/Kosarak04Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_FDcspm/Kosarak05Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_spam/0.01Kosarak_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_spam/0.02Kosarak_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_spam/0.03Kosarak_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_spam/0.04Kosarak_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Kosarak_spam/0.05Kosarak_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_fdCSPM/Sign10Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_fdCSPM/Sign15Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_fdCSPM/Sign20Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_fdCSPM/Sign25Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_fdCSPM/Sign30Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_fdCSPM/Sign35Out_0.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.10Sign_0.8result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.10Sign_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.15Sign_0.8result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.15Sign_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.20Sign_0.8result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.20Sign_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.25Sign_0.8result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.25Sign_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.30Sign_0.8result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.30Sign_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.35Sign_0.8result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/Sign_spam/0.35Sign_0.9result" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MrosFPM/result/减量/减量挖掘对比.xlsx" beforeDir="false" />
-    </list>
+    <list default="true" id="63777c55-00b3-4035-b607-157e13761984" name="Changes" comment="Changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,60 +24,45 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2FHtEWsdUm3Hk4dHMKi5Y5jqkpS" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.mainRunMrosFPM.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/GITHUB/FD-SPMSketch&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.mainRunMrosFPM.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/votha/Desktop/NCKH/Before/FD-SPMSketch-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="algoFpmMros" />
@@ -265,14 +96,6 @@
         <item itemvalue="Application.mainRunMrosFPM" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -498,24 +321,6 @@
       <workItem from="1714722698260" duration="3392000" />
       <workItem from="1714726957637" duration="5000" />
       <workItem from="1714912661878" duration="820000" />
-      <workItem from="1769765055490" duration="253000" />
-      <workItem from="1769767670523" duration="8703000" />
-      <workItem from="1769826562735" duration="7077000" />
-      <workItem from="1769846466133" duration="25000" />
-      <workItem from="1769847327546" duration="3439000" />
-      <workItem from="1769856018269" duration="492000" />
-      <workItem from="1769856555822" duration="108000" />
-      <workItem from="1769856983034" duration="252000" />
-      <workItem from="1769859130427" duration="37000" />
-      <workItem from="1769859381282" duration="3818000" />
-      <workItem from="1769964162995" duration="664000" />
-      <workItem from="1770110312350" duration="80000" />
-      <workItem from="1770110552549" duration="259000" />
-      <workItem from="1770287889168" duration="17000" />
-      <workItem from="1770479803760" duration="13063000" />
-      <workItem from="1770522224441" duration="16992000" />
-      <workItem from="1770623940683" duration="15246000" />
-      <workItem from="1770650905589" duration="1493000" />
     </task>
     <servers />
   </component>
@@ -543,11 +348,6 @@
           <properties class="java.util.ConcurrentModificationException" package="java.util" />
           <option name="timeStamp" value="46" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algoFpmMros.java</url>
-          <line>162</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
